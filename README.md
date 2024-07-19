@@ -9,6 +9,7 @@ In order to run the notebook, follow the steps:
 ```bash
 conda create --name nullclass python=3.9
 ```
+
 2. Activate the environment
 
 ```bash
@@ -20,6 +21,7 @@ conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
 ```
 
 4. Install tensorflow
+
 ```bash
 pip install --upgrade pip
 # Anything above 2.10 is not supported on the GPU on Windows Native
@@ -27,4 +29,5 @@ pip install "tensorflow<2.11"
 ```
 
 
-The same environment `nullclass` can be used for running notebooks for other tasks as well. Now run the notebook named `task1.ipynb`.
+
+The same environment `nullclass` can be used for running notebooks for other tasks as well. Now run the notebook named `task1.ipynb`. The GUI for the task 1 is implemented in the file`gui_task1.py`.
