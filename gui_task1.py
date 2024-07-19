@@ -58,7 +58,7 @@ def translate_to_french(english_sentence):
 
     french_sentence = french_tokenizer.sequences_to_texts([french_sentence])[0]
     
-    print("French translation: ", french_sentence)
+    # print("French translation: ", french_sentence)
     
     return french_sentence
 
