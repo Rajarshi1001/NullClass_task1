@@ -58,7 +58,7 @@ def translate_to_french(english_sentence):
 
     french_sentence = french_tokenizer.sequences_to_texts([french_sentence])[0]
     
-    print("French translation: ", french_sentence)
+    # print("French translation: ", french_sentence)
     
     return french_sentence
 
@@ -79,7 +79,7 @@ def solve():
         translation = response.json()[0][0][0]
         translated_sent = f"French: {translation}"
     except Exception as e:
-        translated_sent = f"Error: {e}"
+        translated_sent = "Error"
     
     result_label.config(text=translated_sent)
     
